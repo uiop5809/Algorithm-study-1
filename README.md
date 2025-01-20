@@ -22,7 +22,7 @@
 | 그래프 |  <a href="https://www.acmicpc.net/problem/2578">다리만들기</a> | <a href="">🔗</a> |
 | BFS  |  <a href="https://www.acmicpc.net/problem/22856">게리맨더링</a> | <a href="">🔗</a> |
 | 완탐 |  <a href="https://www.acmicpc.net/problem/10844">파이프 옮기기 1</a> | <a href="">🔗</a> |
-| 구현 |  <a href="https://www.acmicpc.net/problem/22856">트리 순회</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/2578">빙고</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/10844">쉬운 계단 수</a> | <a href="">🔗</a> |
 <br>
 
@@ -42,6 +42,6 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 그래프 |  <a href="https://www.acmicpc.net/problem/2578">다리만들기</a> | <a href="">🔗</a> |
 | BFS |  <a href="https://www.acmicpc.net/problem/22856">게리맨더링</a> | <a href="">🔗</a> |
 | 완탐 |  <a href="https://www.acmicpc.net/problem/10844">파이프 옮기기 1</a> | <a href="">🔗</a> |
-| 구현 |  <a href="https://www.acmicpc.net/problem/22856">트리 순회</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/2578">빙고</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/10844">쉬운 계단 수</a> | <a href="">🔗</a> |
 <br>
