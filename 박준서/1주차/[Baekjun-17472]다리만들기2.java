@@ -85,7 +85,7 @@ class Main {
 	}
 	public static void findRoute(int y, int x) {
 		for(int i = 0;i<4;i++) {
-			int step=1;
+			int step=0;
 			int ny = y+dy[i];
 			int nx = x+dx[i];
 			boolean out=false;
@@ -99,7 +99,7 @@ class Main {
 				step++;
 			
 			}
-			if(out || step<3 || metrix[y][x] == metrix[ny][nx])continue;
+			if(out || step<2 || metrix[y][x] == metrix[ny][nx])continue;
 			pq.add(new Block(metrix[y][x],metrix[ny][nx],step));
 		}
 	}
@@ -117,7 +117,7 @@ class Main {
 				continue;
 			}
 			union(is1P,is2P);
-			cnt+=d-1;
+			cnt+=d;
 			
 		}
 		

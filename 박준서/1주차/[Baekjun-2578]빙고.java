@@ -7,11 +7,6 @@ import java.util.*;
 class Main {
 	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-	private static final StringBuilder sb = new StringBuilder();
-	private static final int[] dx = {0,1,1,1,0,-1,-1,-1};
-	private static final int[] dy = {-1,-1,0,1,1,1,0,-1};
-	private static final long MOD = 1000000000;
-	private static final long MAXNUM = 21;
 	
 	static class Block{
 		int x,y;

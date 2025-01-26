@@ -7,11 +7,6 @@ import java.util.*;
 class Main {
 	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-	private static final StringBuilder sb = new StringBuilder();
-	private static final int[] dx = {0,1,1,1,0,-1,-1,-1};
-	private static final int[] dy = {-1,-1,0,1,1,1,0,-1};
-	private static final long MOD = 1000000000;
-	private static final long MAXNUM = 21;
 	
 	public static void main(String args[]) throws Exception {
 		String[] in = br.readLine().split(" ");
@@ -25,12 +20,14 @@ class Main {
 		}
 		for(int i = 2;i<=n;i++) {
 			for(int j = 0;j<10;j++) {
-				if(j>0)
+				if(j>0){
 					DP[j][i]+=DP[j-1][i-1];
 					DP[j][i]%=MOD;
-				if(j<9)
+				}
+				if(j<9){
 					DP[j][i]+=DP[j+1][i-1];
 					DP[j][i]%=MOD;
+				}
 								
 			}
 		}

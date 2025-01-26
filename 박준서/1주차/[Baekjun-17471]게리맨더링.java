@@ -85,8 +85,7 @@ class Main {
 		int ret=0;
 		
 		while(!dq.isEmpty()) {
-			int now = dq.peekFirst();
-			dq.pollFirst();
+			int now = dq.pollFirst();
 			ret++;
 
 			for(int i =1;i<=metSize;i++) {
