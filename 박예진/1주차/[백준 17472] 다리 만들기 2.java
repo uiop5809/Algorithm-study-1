@@ -22,12 +22,12 @@ class Edge implements Comparable<Edge> {
 
 class Main
 {
-    static int N, M, idx = 1;
+    static int N, M, idx;
     static int[][] arr;
     static int[][] newArr;
     static int[] parent;
     static boolean[][] visited;
-    static PriorityQueue<Edge> pq = new PriorityQueue<>();
+    static PriorityQueue<Edge> pq;
 
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1}; 
@@ -65,20 +65,11 @@ class Main
         for(int i = 0; i < N; i++) {
             for(int j = 0; j < M; j++) {
                 if (arr[i][j] == 1 && !visited[i][j]) {
+                	idx++;
                     bfs(i, j);
-                    idx++;
                 }
             }
         }
-
-        // 군집 idx test
-//        for(int i = 0; i < N; i++) {
-//            for(int j = 0; j < M; j++) {
-//                System.out.print(newArr[i][j] + " ");
-//            }
-//            System.out.println();
-//        }
-//        System.out.println();
 
         // 0 아닌 것들 탐색해 idx -> idx 간선 우선순위큐에 넣기
         pq = new PriorityQueue<>();
@@ -89,12 +80,6 @@ class Main
                 }
             }
         }
-
-        // pq 출력 test
-//        while(!pq.isEmpty()) {
-//            Edge cur = pq.poll();
-//            System.out.println(cur.v1 + " " + cur.v2 + " " + cur.cost);
-//        }
 
         // 유니온 파인드 하면서 모든 정점 부모 같아질 때까지
         // 부모 노드 초기화
@@ -113,7 +98,8 @@ class Main
                 edgesUsed++;
             }
         }
-        if (costSum == 0 || edgesUsed != idx - 2) System.out.println(-1);
+        
+        if (costSum == 0 || edgesUsed != idx - 1) System.out.println(-1);
         else System.out.println(costSum);
     }
 
@@ -147,8 +133,10 @@ class Main
                     ny += dy[i];
                     cnt++;
                     if (nx < 0 || nx > N - 1 || ny < 0 || ny > M - 1) break;
+                    // 예외) 본인 군집일 경우
+                    if (newArr[nx][ny] == start) break;
                     // 다른 군집일 경우
-                    if (newArr[nx][ny] != 0 && newArr[nx][ny] != start) {
+                    if (newArr[nx][ny] != 0) {
                         if (cnt > 1) {
                             pq.add(new Edge(start, newArr[nx][ny], cnt));  // start, end, cost
                         }
