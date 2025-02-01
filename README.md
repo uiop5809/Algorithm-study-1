@@ -53,6 +53,21 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 최단경로 |  <a href="https://www.acmicpc.net/problem/18352">특정 거리의 도시 찾기</a> | <a href="">🔗</a> |
 <br>
 
+### Week 03 (25.02.03 ~ 25.02.10)
+
+```
+김민진-> 김동하-> 박예진 -> 문한결 -> 박준서 -> 정민서 -> 박예진
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/16236">아기 상어</a> | <a href="">🔗</a> |
+| 수학 |  <a href="https://www.acmicpc.net/problem/9020">골드바흐의 추측</a> | <a href="">🔗</a> |
+| 수학 |  <a href="https://www.acmicpc.net/problem/2981">검문</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1931">회의실 배정</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/13305">주유소</a> | <a href="">🔗</a> |
+<br>
+
 
 ## 😊코드 리뷰 규칙 
 ### 1. 코드 리뷰 순서
