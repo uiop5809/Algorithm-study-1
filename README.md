@@ -24,6 +24,11 @@
 https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/22697
  
 ### Week 01 (25.01.20 ~ 25.01.27)
+
+```
+김동하-> 문한결-> 정민서 -> 김민진 -> 박준서 -> 박예진 -> 김동하
+```
+
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 그래프 |  <a href="https://www.acmicpc.net/problem/17472">다리만들기 2</a> | <a href="">🔗</a> |
@@ -31,6 +36,21 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 완탐 |  <a href="https://www.acmicpc.net/problem/17070">파이프 옮기기 1</a> | <a href="">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/2578">빙고</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/10844">쉬운 계단 수</a> | <a href="">🔗</a> |
+<br>
+
+### Week 02 (25.01.27 ~ 25.02.03)
+
+```
+박예진-> 김민진-> 정민서 -> 김동하 -> 박준서 -> 문한결 -> 박예진
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/21608">상어 초등학교</a> | <a href="">🔗</a> |
+| 냅색 |  <a href="https://www.acmicpc.net/problem/17845">수강 과목</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1309">동물원</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/1629">곱셈</a> | <a href="">🔗</a> |
+| 최단경로 |  <a href="https://www.acmicpc.net/problem/18352">특정 거리의 도시 찾기</a> | <a href="">🔗</a> |
 <br>
 
 
