@@ -47,20 +47,18 @@ class Main
 			}
 			
 			int sum = left + right;
-			if (sum == num) {
-				if (difference > right - left) {
-					difference = right - left;
-					res[0] = left;
-					res[1] = right;
-				}
-				left++;
-				right--;
-			} else if (sum < num){
+			if (sum == num && difference > right - left) {
+		        difference = right - left;
+		        res[0] = left++;
+		        res[1] = right--;
+		        } else if (sum < num){
 				left++;
 			} else if (sum > num) {
 				right--;
 			}
 		}
+		
+    }
     
     // 에라토스테네스의 체
     static void primeNum() {
