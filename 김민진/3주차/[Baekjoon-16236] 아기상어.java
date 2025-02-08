@@ -48,7 +48,7 @@ public class Q1BabyShark {
 		}
 	}
 
-	static class Block implements Comparable<Block> {
+	static class Block {
 		int x;
 		int y;
 		int time;
