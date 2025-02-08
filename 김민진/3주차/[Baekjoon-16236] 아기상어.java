@@ -15,7 +15,7 @@ public class Q1BabyShark {
 	private static int[][]      matrix;
 	private static boolean[][]  visited;
 
-	private static Queue<Block>         q;  // bfs
+	private static Queue<Block> q;  // bfs
 
 	static class Shark {
 		int x;
@@ -46,7 +46,6 @@ public class Q1BabyShark {
 				eatenFish = 0;
 			}
 		}
-
 	}
 
 	static class Block implements Comparable<Block> {
@@ -58,17 +57,6 @@ public class Q1BabyShark {
 			this.x = x;
 			this.y = y;
 			this.time = time;
-		}
-
-		@Override
-		public int compareTo(Block o) {
-			if (this.time != o.time)
-				return Integer.compare(this.time, o.time);
-
-			if (this.x != o.x)
-				return Integer.compare(this.x, o.x);
-
-			return Integer.compare(this.y, o.y);
 		}
 	}
 
@@ -147,11 +135,9 @@ public class Q1BabyShark {
 						}
 					}
 				}
-
 				q.offer(new Block(nx, ny, b.time + 1));
 			}
 		}
-
 		return fishToEatExists(fishToEat, minDist);
 	}
 
@@ -176,5 +162,4 @@ public class Q1BabyShark {
 		}
 		q.clear();
 	}
-
 }
