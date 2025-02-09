@@ -56,7 +56,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 ### Week 03 (25.02.03 ~ 25.02.10)
 
 ```
-김민진-> 김동하-> 박예진 -> 문한결 -> 박준서 -> 정민서 -> 박예진
+김민진-> 김동하-> 박예진 -> 문한결 -> 박준서 -> 정민서 -> 김민진
 ```
 
 | Category | Title | Link |
@@ -68,6 +68,20 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 그리디 |  <a href="https://www.acmicpc.net/problem/13305">주유소</a> | <a href="">🔗</a> |
 <br>
 
+### Week 04 (25.02.10 ~ 25.02.17)
+
+```
+김민진-> 박예진-> 김동하 -> 박준서 -> 문한결 -> 김민진
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/19236">청소년 상어</a> | <a href="">🔗</a> |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/5972">택배 배송</a> | <a href="">🔗</a> |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/1865">웜홀</a> | <a href="">🔗</a> |
+| 문자열 |  <a href="https://www.acmicpc.net/problem/1254">펠린드롬 만들기</a> | <a href="">🔗</a> |
+| 문자열 |  <a href="https://www.acmicpc.net/problem/20210">파일 탐색</a> | <a href="">🔗</a> |
+<br>
 
 ## 😊코드 리뷰 규칙 
 ### 1. 코드 리뷰 순서
