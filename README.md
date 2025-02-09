@@ -77,10 +77,15 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 구현 |  <a href="https://www.acmicpc.net/problem/19236">청소년 상어</a> | <a href="">🔗</a> |
-| 최단 경로 |  <a href="https://www.acmicpc.net/problem/5972">택배 배송</a> | <a href="">🔗</a> |
-| 최단 경로 |  <a href="https://www.acmicpc.net/problem/1865">웜홀</a> | <a href="">🔗</a> |
-| 문자열 |  <a href="https://www.acmicpc.net/problem/1254">펠린드롬 만들기</a> | <a href="">🔗</a> |
-| 문자열 |  <a href="https://www.acmicpc.net/problem/20210">파일 탐색</a> | <a href="">🔗</a> |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/5972">택배 배송</a> | <a href="https://www.acmicpc.net/problem/5972">🔗</a> |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/1865">웜홀</a> | <a href="https://www.acmicpc.net/problem/1865">🔗</a> |
+| 문자열 |  <a href="https://www.acmicpc.net/problem/1254">펠린드롬 만들기</a> | <a href="https://www.acmicpc.net/problem/1254">🔗</a> |
+| 문자열 |  <a href="https://www.acmicpc.net/problem/11478">서로 다른 부분 문자열의 개수</a> | <a href="https://www.acmicpc.net/problem/11478">🔗</a> |
+
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/9376">탈옥</a> | <a href="https://www.acmicpc.net/problem/9376">🔗</a> |
 <br>
 
 ## 😊코드 리뷰 규칙 
