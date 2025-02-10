@@ -19,14 +19,14 @@ class Main
    	
 	static class Seat implements Comparable<Seat> {
 		private int x, y, studentCnt, emptyCnt;
-		
+
 		public Seat(int x, int y, int studentCnt, int emptyCnt) {
 			this.x = x;
 			this.y = y;
 			this.studentCnt = studentCnt;
 			this.emptyCnt = emptyCnt;
 		}
-		
+    
 		@Override
 		public int compareTo(Seat seat) {
 			// 인접 좋아하는 학생수로 비교
@@ -36,12 +36,11 @@ class Main
 			else return y - seat.y;
 		}
 	}
-	
     public static void main(String args[]) throws IOException 
     {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	StringTokenizer st = new StringTokenizer(br.readLine());
-    	
+
     	// 입력
     	N = Integer.parseInt(st.nextToken());
     	student = new int[N * N];
@@ -52,7 +51,7 @@ class Main
     		int idx = Integer.parseInt(st.nextToken());
     		student[i] = idx;
     		preference.put(idx, new ArrayList<>());
-    		
+
     		// 좋아하는 사람 기록
     		for(int j = 0; j < 4; j++) {
     			preference.get(idx).add(Integer.parseInt(st.nextToken()));
@@ -61,7 +60,7 @@ class Main
     	
     	// 해결
     	solution();
-    	
+      
     	// 결과
     	// 만족도는 0, 1이면 1, 2이면 10, 3이면 100, 4이면 1000
     	int res = 0;
@@ -72,51 +71,47 @@ class Main
     		}
     	}
     	System.out.println(res);
-    	
+
     }
-    
+
     static void solution() {
     	// 학생 순서대로 자리 배치하기
     	arr = new int[N][N];
     	for(int k = 0; k < N * N; k++) {
     		int idx = student[k];
-    		
     		PriorityQueue<Seat> pq = new PriorityQueue<>();
-			for(int i = 0; i < N; i++) {
-	    		for(int j = 0; j < N; j++) {
-	    			if (arr[i][j] == 0) {
-	    				int studentCnt = getStudentCnt(i, j, idx);
-	    				int emptyCnt = getEmptyCnt(i, j);
-	    				pq.add(new Seat(i, j, studentCnt, emptyCnt));
-	    			}
-	    		}
+        for(int i = 0; i < N; i++) {
+            for(int j = 0; j < N; j++) {
+              if (arr[i][j] == 0) {
+                int studentCnt = getStudentCnt(i, j, idx);
+                int emptyCnt = getEmptyCnt(i, j);
+                pq.add(new Seat(i, j, studentCnt, emptyCnt));
+              }
+            }
 	    	}
-			
 			Seat seat = pq.poll();
 			arr[seat.x][seat.y] = idx;
     	}
     }
-    
     // 주위 선호하는 학생들
     static int getStudentCnt(int x, int y, int idx) {
     	int cnt = 0;
     	for(int i = 0; i < 4; i++) {
     		int nx = x + dx[i];
     		int ny = y + dy[i];
-    		
+
     		if (nx < 0 || nx > N - 1 || ny < 0 || ny > N - 1) continue;
 			if (preference.get(idx).contains(arr[nx][ny])) cnt++;
     	}
     	return cnt;
     }
-    
     // 주위 빈 곳 
     static int getEmptyCnt(int x, int y) {
     	int cnt = 0;
     	for(int i = 0; i < 4; i++) {
     		int nx = x + dx[i];
     		int ny = y + dy[i];
-    		
+
     		if (nx < 0 || nx > N - 1 || ny < 0 || ny > N - 1) continue;
     		if (arr[nx][ny] == 0) cnt++;
     	}
