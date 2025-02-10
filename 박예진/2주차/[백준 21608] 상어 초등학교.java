@@ -13,10 +13,10 @@ class Main
 	static int[] student; // 학생 순서
 	static int[][] arr;
 	static HashMap<Integer, List<Integer>> preference; // 학생별 선호도
-
+	
 	static int[] dx = {-1, 0, 1, 0};
 	static int[] dy = {0, 1, 0, -1};
-
+   	
 	static class Seat implements Comparable<Seat> {
 		private int x, y, studentCnt, emptyCnt;
 
@@ -26,7 +26,7 @@ class Main
 			this.studentCnt = studentCnt;
 			this.emptyCnt = emptyCnt;
 		}
-
+    
 		@Override
 		public int compareTo(Seat seat) {
 			// 인접 좋아하는 학생수로 비교
@@ -36,7 +36,6 @@ class Main
 			else return y - seat.y;
 		}
 	}
-
     public static void main(String args[]) throws IOException 
     {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -58,10 +57,10 @@ class Main
     			preference.get(idx).add(Integer.parseInt(st.nextToken()));
     		}
     	}
-
+    	
     	// 해결
     	solution();
-
+      
     	// 결과
     	// 만족도는 0, 1이면 1, 2이면 10, 3이면 100, 4이면 1000
     	int res = 0;
@@ -80,23 +79,20 @@ class Main
     	arr = new int[N][N];
     	for(int k = 0; k < N * N; k++) {
     		int idx = student[k];
-
     		PriorityQueue<Seat> pq = new PriorityQueue<>();
-			for(int i = 0; i < N; i++) {
-	    		for(int j = 0; j < N; j++) {
-	    			if (arr[i][j] == 0) {
-	    				int studentCnt = getStudentCnt(i, j, idx);
-	    				int emptyCnt = getEmptyCnt(i, j);
-	    				pq.add(new Seat(i, j, studentCnt, emptyCnt));
-	    			}
-	    		}
+        for(int i = 0; i < N; i++) {
+            for(int j = 0; j < N; j++) {
+              if (arr[i][j] == 0) {
+                int studentCnt = getStudentCnt(i, j, idx);
+                int emptyCnt = getEmptyCnt(i, j);
+                pq.add(new Seat(i, j, studentCnt, emptyCnt));
+              }
+            }
 	    	}
-
 			Seat seat = pq.poll();
 			arr[seat.x][seat.y] = idx;
     	}
     }
-
     // 주위 선호하는 학생들
     static int getStudentCnt(int x, int y, int idx) {
     	int cnt = 0;
@@ -109,7 +105,6 @@ class Main
     	}
     	return cnt;
     }
-
     // 주위 빈 곳 
     static int getEmptyCnt(int x, int y) {
     	int cnt = 0;

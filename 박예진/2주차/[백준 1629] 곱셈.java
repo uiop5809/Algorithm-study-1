@@ -26,10 +26,20 @@ class Main
 
     	long res = go(A, B / 2);
     	res = (res * res) % C;
-
+    	
+    	answer = go(A, B);
+    	System.out.println(answer);
+    }
+    
+    static long go(long A, long B) {
+    	// 기저 조건
+    	if (B == 1) return A % C;
+    	
+    	long res = go(A, B / 2);
+    	res = (res * res) % C;
+    	
     	// 만약 홀수라면
     	if (B % 2 == 1) res = (res * A) % C;
     	return res;
     }
-
 }

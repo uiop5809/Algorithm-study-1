@@ -12,7 +12,7 @@ class Main
     {
     	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     	StringTokenizer st = new StringTokenizer(br.readLine());
-
+    	
     	// 입력
     	N = Integer.parseInt(st.nextToken());
     	K = Integer.parseInt(st.nextToken());
@@ -31,9 +31,8 @@ class Main
 
       // 출력
     	System.out.println(dp[K][N]);
-
     }
-
+  
     static void knapsack(){
     	// 과목수
     	for(int i = 1; i <= K; i++) {
@@ -48,5 +47,4 @@ class Main
     		}
     	}
     }
-
 }
