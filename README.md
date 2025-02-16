@@ -147,7 +147,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 ### Week 05 (25.02.17 ~ 25.02.24)
 
 ```
-김민진-> 박예진-> 김동하 -> 박준서 -> 문한결 -> 김민진
+박준서 -> 이종환 -> 문한결 -> 김동하 -> 박예진 -> 김민진 -> 박준서
 ```
 
 | Category | Title | Link |
