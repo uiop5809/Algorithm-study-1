@@ -159,3 +159,19 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 그리디 |  <a href="https://www.acmicpc.net/problem/1802">종이 접기</a> | <a href="https://www.acmicpc.net/problem/1802">🔗</a> |
 
 <br>
+
+### Week 06 (25.02.24 ~ 25.03.03)
+
+```
+문한결 -> 박준서 -> 박예진 -> 김동하 -> 김민진 -> 이종환 -> 문한결
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20056">마법사 상어와 파이어볼</a> | <a href="https://www.acmicpc.net/problem/20056">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1080">행렬</a> | <a href="https://www.acmicpc.net/problem/1080">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1437">수 분해</a> | <a href="https://www.acmicpc.net/problem/17485">🔗</a> |
+| mst |  <a href="https://www.acmicpc.net/problem/1717">집합의 표현</a> | <a href="https://www.acmicpc.net/problem/1717">🔗</a> |
+| 투포인터 |  <a href="https://www.acmicpc.net/problem/16472">고냥이</a> | <a href="https://www.acmicpc.net/problem/16472">🔗</a> |
+
+<br>
