@@ -25,7 +25,7 @@ using namespace std;
   이동 K번 명령후 남아있는 파이어볼 질량의 합
 */
 
-int N, M, K; // 칸, 볼개수, 이동수
+int N, M, K; // 칸, 파이어볼 개수, 이동수
 int dx[8] = { -1, -1, 0, 1, 1, 1, 0, -1 };
 int dy[8] = { 0, 1, 1, 1, 0, -1, -1, -1 };
 
@@ -33,12 +33,8 @@ struct FireBall {
   int r, c, m, s, d;
 };
 
-struct ArrFireBall {
-  int s, m, d; // 속력, 질량, 방향
-};
-
 queue <FireBall> FireBalls; // 파이어볼 정보
-vector <ArrFireBall> arr[51][51]; // 각 칸에 들어가있는 파이어볼
+vector <FireBall> arr[51][51]; // 각 칸에 들어가있는 파이어볼
 
 // 파이어볼 이동
 void FireBallMove() {
@@ -50,7 +46,7 @@ void FireBallMove() {
     int nx = (fb.r + dx[fb.d] * fb.s % N + N) % N;
     int ny = (fb.c + dy[fb.d] * fb.s % N + N) % N;    
 
-    arr[nx][ny].push_back({ fb.s, fb.m, fb.d });
+    arr[nx][ny].push_back({ nx, ny, fb.m, fb.s, fb.d });
   }
 }
 
@@ -60,11 +56,11 @@ void FireBallCheck() {
     for (int j = 0; j < N; j++) {
       // 파이어볼 2개 이상
       if (arr[i][j].size() > 1) {
-        vector<FireBall> newFireBalls(4, {i, j, 0, 0, 0});
+        vector<FireBall> newFireBalls(4);
 
         int ssum = 0, msum = 0; // 속력합, 질량합
         int oddCnt = 0, evenCnt = 0;
-        for (ArrFireBall fb : arr[i][j]) {
+        for (FireBall fb : arr[i][j]) {
           ssum += fb.s;
           msum += fb.m;
           if (fb.d % 2 == 1) oddCnt++;
@@ -76,6 +72,8 @@ void FireBallCheck() {
         // 질량 0보다 클 경우
         if (resM > 0) {
           for (int k = 0; k < 4; k++) {
+              newFireBalls[k].r = i;
+              newFireBalls[k].c = j;
               newFireBalls[k].m = resM;
               newFireBalls[k].s = resS;
               newFireBalls[k].d = (oddCnt == 0 || evenCnt == 0) ? k * 2 : k * 2 + 1;
@@ -85,7 +83,7 @@ void FireBallCheck() {
       }
       // FireBalls 넣어야함
       else if (arr[i][j].size() == 1) {
-        ArrFireBall fb = arr[i][j].front();
+        FireBall fb = arr[i][j].front();
         FireBalls.push({ i, j, fb.m, fb.s, fb.d });
       }
     }
@@ -108,7 +106,7 @@ int main() {
       FireBallMove();
       FireBallCheck();
 
-      // ArrFireBall 초기화
+      // arr 초기화
       for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
           arr[i][j].clear();
