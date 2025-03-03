@@ -175,3 +175,25 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 투포인터 |  <a href="https://www.acmicpc.net/problem/16472">고냥이</a> | <a href="https://www.acmicpc.net/problem/16472">🔗</a> |
 
 <br>
+
+
+### Week 07 (25.03.03 ~ 25.03.10)
+
+```
+김동하 -> 박예진 -> 김민진 -> 이종환 -> 문한결 -> 박준서 -> 김동하
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20057">마법사 상어와 토네이도</a> | <a href="https://www.acmicpc.net/problem/20057">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/17822">원판 돌리기</a> | <a href="https://www.acmicpc.net/problem/17822">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/15724">주지수</a> | <a href="https://www.acmicpc.net/problem/15724">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1823">수확</a> | <a href="https://www.acmicpc.net/problem/1823">🔗</a> 
+| DP |  <a href="https://www.acmicpc.net/problem/2098">외판원 순회</a> | <a href="https://www.acmicpc.net/problem/2098">🔗</a> |
+
+<br>
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 트라이 |  <a href="https://www.acmicpc.net/problem/19585">전설</a> | <a href="https://www.acmicpc.net/problem/19585">🔗</a> |
+<br>
