@@ -216,3 +216,29 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 재귀 |  <a href="https://www.acmicpc.net/problem/28075">스파이</a> | <a href="https://www.acmicpc.net/problem/28075">🔗</a> |
 
 <br>
+
+
+### Week 09 (25.03.17 ~ 25.03.24)
+
+```
+이종환 -> 김민진 -> 박예진 -> 박준서 -> 문한결 -> 김동하 -> 이종환
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/21610">마법사 상어와 비바라기</a> | <a href="https://www.acmicpc.net/problem/21610">🔗</a> |
+| 위상정렬 |  <a href="https://www.acmicpc.net/problem/2637">장난감 조립</a> | <a href="https://www.acmicpc.net/problem/2637">🔗</a> |
+| 트라이 |  <a href="https://www.acmicpc.net/problem/5052">전화번호 목록</a> | <a href="https://www.acmicpc.net/problem/5052">🔗</a> |
+| 최단경로 |  <a href="https://www.acmicpc.net/problem/1389">케빈 베이컨의 6단계 법칙</a> | <a href="https://www.acmicpc.net/problem/1389">🔗</a> 
+| 슬라이딩 윈도우 |  <a href="https://www.acmicpc.net/problem/2531">회전 초밥</a> | <a href="https://www.acmicpc.net/problem/2531">🔗</a> |
+
+<br>
+
+
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| lazy segment tree |  <a href="https://www.acmicpc.net/problem/10999">구간 합 구하기 2</a> | <a href="https://www.acmicpc.net/problem/10999">🔗</a> |
+
+
+<br>
