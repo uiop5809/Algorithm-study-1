@@ -199,3 +199,20 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 트라이 |  <a href="https://www.acmicpc.net/problem/19585">전설</a> | <a href="https://www.acmicpc.net/problem/19585">🔗</a> |
 
 <br>
+
+
+### Week 08 (25.03.10 ~ 25.03.17)
+
+```
+이종환 -> 김민진 -> 박예진 -> 박준서 -> 문한결 -> 김동하 -> 이종환
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20058">마법사 상어와 파이어스톰</a> | <a href="https://www.acmicpc.net/problem/20058">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20055">컨베이어 벨트 위의 로봇</a> | <a href="https://www.acmicpc.net/problem/20055">🔗</a> |
+| 비트마스킹 |  <a href="https://www.acmicpc.net/problem/15787">기차가 어둠을 헤치고 은하수</a> | <a href="https://www.acmicpc.net/problem/15787">🔗</a> |
+| 최단경로 |  <a href="https://www.acmicpc.net/problem/2151">거울 설치</a> | <a href="https://www.acmicpc.net/problem/2151">🔗</a> 
+| 재귀 |  <a href="https://www.acmicpc.net/problem/28075">스파이</a> | <a href="https://www.acmicpc.net/problem/28075">🔗</a> |
+
+<br>
