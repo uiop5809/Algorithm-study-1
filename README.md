@@ -221,7 +221,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 ### Week 09 (25.03.17 ~ 25.03.24)
 
 ```
-이종환 -> 김민진 -> 박예진 -> 박준서 -> 문한결 -> 김동하 -> 이종환
+김민진 -> 김동하 -> 박준서 -> 박예진 -> 문한결 -> 이종환 -> 김민진
 ```
 
 | Category | Title | Link |
