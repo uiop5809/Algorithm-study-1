@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    // 입출력을 위한 버퍼 리더와 라이터 선언
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     private static StringTokenizer st;
