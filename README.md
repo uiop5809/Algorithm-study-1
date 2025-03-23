@@ -264,7 +264,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 도전 문제(**필수 아님**)
 | Category | Title | Link |
 | :------: | :---: | :--: |
-| 비트마스 |  <a href="https://www.acmicpc.net/problem/1102">발전소</a> | <a href="https://www.acmicpc.net/problem/1102">🔗</a> |
+| 비트마스킹 |  <a href="https://www.acmicpc.net/problem/1102">발전소</a> | <a href="https://www.acmicpc.net/problem/1102">🔗</a> |
 
 
 <br>
