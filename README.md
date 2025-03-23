@@ -252,7 +252,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 
 | Category | Title | Link |
 | :------: | :---: | :--: |
-| 구현 |  <a href="https://www.acmicpc.net/problem/21611">마법사 상어와 블리자</a> | <a href="https://www.acmicpc.net/problem/21611">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/21611">마법사 상어와 블리자드</a> | <a href="https://www.acmicpc.net/problem/21611">🔗</a> |
 | 이분탐색 |  <a href="https://www.acmicpc.net/problem/10815">숫자 카드</a> | <a href="https://www.acmicpc.net/problem/10815">🔗</a> |
 | 이분탐색 |  <a href="https://www.acmicpc.net/problem/2143">두 배열의 합</a> | <a href="https://www.acmicpc.net/problem/2143">🔗</a> |
 | 비트마스킹 |  <a href="https://www.acmicpc.net/problem/14391">종이 조각</a> | <a href="https://www.acmicpc.net/problem/14391">🔗</a> 
