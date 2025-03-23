@@ -242,3 +242,31 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 
 
 <br>
+
+
+### Week 10 (25.03.24 ~ 25.03.31)
+
+```
+박예진 -> 문한결 -> 김민진 -> 박준서 -> 이종환 -> 김동하 -> 박예진
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/21611">마법사 상어와 블리자</a> | <a href="https://www.acmicpc.net/problem/21611">🔗</a> |
+| 이분탐색 |  <a href="https://www.acmicpc.net/problem/10815">숫자 카드</a> | <a href="https://www.acmicpc.net/problem/10815">🔗</a> |
+| 이분탐색 |  <a href="https://www.acmicpc.net/problem/2143">두 배열의 합</a> | <a href="https://www.acmicpc.net/problem/2143">🔗</a> |
+| 비트마스킹 |  <a href="https://www.acmicpc.net/problem/14391">종이 조각</a> | <a href="https://www.acmicpc.net/problem/14391">🔗</a> 
+| 그리디 |  <a href="https://www.acmicpc.net/problem/11000">강의실 배정</a> | <a href="https://www.acmicpc.net/problem/11000">🔗</a> |
+
+<br>
+
+
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 비트마스 |  <a href="https://www.acmicpc.net/problem/1102">발전소</a> | <a href="https://www.acmicpc.net/problem/1102">🔗</a> |
+
+
+<br>
+
+
