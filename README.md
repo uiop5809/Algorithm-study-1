@@ -280,7 +280,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 구현 |  <a href="https://www.acmicpc.net/problem/23290">마법사 상어와 복제</a> | <a href="https://www.acmicpc.net/problem/23290">🔗</a> |
-| 이분탐색 |  <a href="https://www.acmicpc.net/problem/2352">반도체 설계</a> | <a href="https://www.acmicpc.net/problem/2352">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/2352">반도체 설계</a> | <a href="https://www.acmicpc.net/problem/2352">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/1562">계단 </a> | <a href="https://www.acmicpc.net/problem/1562">🔗</a> |
 | 위상정렬 |  <a href="https://www.acmicpc.net/problem/24526">전화 돌리기</a> | <a href="https://www.acmicpc.net/problem/24526">🔗</a> 
 | MST |  <a href="https://www.acmicpc.net/problem/17490">일감호에 다리 놓기</a> | <a href="https://www.acmicpc.net/problem/17490">🔗</a> |
