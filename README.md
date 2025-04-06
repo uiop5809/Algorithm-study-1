@@ -287,3 +287,21 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 
 <br>
 
+
+
+### Week 12 (25.04.07 ~ 25.04.14)
+
+```
+이종환 -> 김민진 -> 문한결 -> 김동하 -> 박예진 -> 박준서 -> 이종환
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/17144">미세먼지 안녕!</a> | <a href="https://www.acmicpc.net/problem/17144">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1311">할 일 정하기 1</a> | <a href="https://www.acmicpc.net/problem/1311">🔗</a> |
+| 수학 |  <a href="https://www.acmicpc.net/problem/2405">세 수, 두 M </a> | <a href="https://www.acmicpc.net/problem/2405">🔗</a> |
+| 위상정렬 |  <a href="https://www.acmicpc.net/problem/21924">도시 건</a> | <a href="https://www.acmicpc.net/problem/21924">🔗</a> 
+| 분리 집합 |  <a href="https://www.acmicpc.net/problem/7511">소셜 네트워킹 어플리케이션</a> | <a href="https://www.acmicpc.net/problem/7511">🔗</a> |
+
+<br>
+
