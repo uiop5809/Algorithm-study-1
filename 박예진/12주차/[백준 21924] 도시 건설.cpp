@@ -4,8 +4,6 @@
 #include <queue>
 using namespace std;
 
-// 크루스칼, 부모 합치기
-
 int N, M, cnt; // 건물 개수, 도로 개수 
 int parent[100001];
 
