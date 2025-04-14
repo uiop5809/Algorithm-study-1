@@ -315,7 +315,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 구현 |  <a href="https://www.acmicpc.net/problem/14503">로봇 청소기</a> | <a href="https://www.acmicpc.net/problem/14503">🔗</a> |
-| 이분탐색 |  <a href="https://www.acmicpc.net/problem/2295">할 일 정하기 1</a> | <a href="https://www.acmicpc.net/problem/2295">🔗</a> |
+| 이분탐색 |  <a href="https://www.acmicpc.net/problem/2295">세 수의 합</a> | <a href="https://www.acmicpc.net/problem/2295">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/14890">경사로</a> | <a href="https://www.acmicpc.net/problem/14890">🔗</a> |
 | 투포인터 |  <a href="https://www.acmicpc.net/problem/2473">세 용액</a> | <a href="https://www.acmicpc.net/problem/2473">🔗</a> 
 | BFS |  <a href="https://www.acmicpc.net/problem/14226">이모티콘</a> | <a href="https://www.acmicpc.net/problem/14226">🔗</a> |
