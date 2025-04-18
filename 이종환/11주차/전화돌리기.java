@@ -42,7 +42,10 @@ public class 전화돌리기 {
 		
 		while(!q.isEmpty()) {
 			Node n = q.poll();
+<<<<<<< HEAD
 			System.out.println(n.num);
+=======
+>>>>>>> 74cf2b1d598dc6ccfd3f5fd8827e1b379835b04f
 			ans++;
 			
 			for (int parent: n.parent) {
@@ -66,7 +69,11 @@ public class 전화돌리기 {
 			int to = Integer.parseInt(st.nextToken());
 			
 			if (nodes[to].parent.contains(from)) continue;
+<<<<<<< HEAD
 			// childNode 개수에 중복된 것이 들어가는 것을 방지하기 위한 처리
+=======
+			
+>>>>>>> 74cf2b1d598dc6ccfd3f5fd8827e1b379835b04f
 			nodes[from].childCnt++;
 			nodes[to].parent.add(from);
 		}
