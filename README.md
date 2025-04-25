@@ -321,3 +321,20 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | BFS |  <a href="https://www.acmicpc.net/problem/14226">이모티콘</a> | <a href="https://www.acmicpc.net/problem/14226">🔗</a> |
 
 <br>
+
+
+### Week 14 (25.04.21 ~ 25.04.28)
+
+```
+박예진 -> 문한결 -> 이종환 -> 박준서 -> 김동하 -> 김민진 -> 박예진
+```
+
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/21609">상어 중학교</a> | <a href="https://www.acmicpc.net/problem/21609">🔗</a> |
+| 트라이 |  <a href="https://www.acmicpc.net/problem/16934">게임 닉네임</a> | <a href="https://www.acmicpc.net/problem/16934">🔗</a> |
+| 이분탐색 |  <a href="https://www.acmicpc.net/problem/14003">가장 긴 증가하는 부분 수열 5</a> | <a href="https://www.acmicpc.net/problem/14003">🔗</a> |
+| 그래프 |  <a href="https://www.acmicpc.net/problem/11403">경로 찾기</a> | <a href="https://www.acmicpc.net/problem/11403">🔗</a> 
+| 구간합 |  <a href="https://www.acmicpc.net/problem/11441">합 구하기</a> | <a href="https://www.acmicpc.net/problem/11441">🔗</a> |
+
+<br>

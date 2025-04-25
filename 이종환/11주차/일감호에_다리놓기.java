@@ -19,6 +19,10 @@ public class 일감호에_다리놓기 {
 	private static void print() {
 		// 무조건 다 연결될 수 있기에 아예 연결자체가 안되는 경우는 배제
 		System.out.println(cost <= rockCnt?"YES":"NO");
+<<<<<<< HEAD
+		
+=======
+>>>>>>> 74cf2b1d598dc6ccfd3f5fd8827e1b379835b04f
 	}
 	private static void process() {
 		// 아예 섬이랑 연결이 되지 않아도 되는 경우를 위한 변수 생성
